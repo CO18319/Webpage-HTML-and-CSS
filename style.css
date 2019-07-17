@@ -1,0 +1,145 @@
+/*
+border-styles
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+p.mix {border-style: dotted dashed solid double;}
+*/
+#my {
+	background-color: red; 
+	padding: 13px; 
+	position: fixed; 
+	width: 1420px;
+	text-align: center;
+	max-width: 100%;
+}
+
+#my1 {
+	background-color: #E45E9D;
+	height: 300px;
+	width: 1445px;
+	margin-top: 10px;
+	border-style: solid;
+	border-color: pink;
+	max-width: 100%;
+
+}
+
+#my1_1 {
+	padding: 20px; 
+	margin-top:40px; 
+	margin-left: 40px;
+	max-width: 100%;
+
+}
+
+#my2_2 {
+	float: left;
+	max-width: 100%;
+}
+
+#my2 {
+	background-color: white;
+	height: 250px;
+	max-width: 100%;
+
+}
+
+#my3 {
+	background-color: #E45E9D;
+	height: 400px;
+	width: 720px;
+	text-align: center;
+	font-family:Times New Roman;
+	max-width: 100%;
+}
+
+#my4 {
+	margin-left: 730px;
+	background-color: #E45E9D;
+	margin-top: -400px;
+	height: 400px;
+	width: 720px;
+	max-width: 100%;
+}
+
+#my5 {
+	height: 50px;
+	width:1380px;
+	margin-bottom: 50px;
+	max-width: 100%;
+}
+
+.img {
+	border-radius: 100%;
+	height: 150px;
+	width: 150px;
+	margin-left: 250px;
+	max-width:100%;
+	max-height: 100%;
+	float:left;
+}
+
+.input {
+	border-radius: 5px;
+	border-color: white;
+	background-color:#E45E9D;
+	color: white;
+	width: 460px;
+	height: 40px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 80px;
+	max-width: 100%;
+}
+
+#submit {
+	color: white;
+	width: 600px;
+	height: 60px;
+	text-align: center;
+	background-color: green;
+	margin-left: 420px;
+	margin-top: 20px;
+	border: 4px outset white;
+  	padding: 10px;
+  	border-radius: 25px;
+  	font-size: 18px;
+  	max-width: 100%;
+}
+
+span { 
+	margin-top: 0px; 
+	font-size: 20px; 
+	color: white;
+	font-family: Arial;
+}
+
+h3 {
+	margin-left: 400px; 
+	margin-top:-220px; 
+	color: white;
+	font-family: ;
+	font-family: Arial;
+	font-size: 2vw;
+}
+
+p {
+	margin-left: 400px;
+	margin-top:-5px;
+	color: white;
+	margin-right: 40px;
+	font-family: sans-serif;
+	font-size: 1.3vw;
+}
+
+::placeholder {
+	color: white;
+}
